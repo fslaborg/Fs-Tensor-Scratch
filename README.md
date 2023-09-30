@@ -12,4 +12,4 @@ After cloning the repository, run the following commands to setup the project:
 - Use *dotnet tool restore*  for local tool restore.
     - nuget package manager: paket
     - deployment: fake
-- Use *dotnet fake build* to build the project. The build artefact will be located in the src/FsTensor/publish directory.
+- Use *dotnet fake build* to build the project. The build artefacts will be located in the src/FsTensor/publish directory.
