@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Company>F# incubation space</Company>
+    <Author>Dennis Grimminck</Author>
+    <Description>FsTensor, Tensor manipulations and calculations as part of FsLab.</Description>
+    <AssemblyName>FsTensor</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <TargetFSharpCoreVersion>6.0.7</TargetFSharpCoreVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="FsTensor.fs" />
+    <Compile Include="FsTensor.AlgorithmProviders.fs" />
+    <None Include="paket.references" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

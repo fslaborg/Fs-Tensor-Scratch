@@ -1,0 +1,6 @@
+type project
+id FsTensor
+description
+    FsTensor, Tensor manipulations and calculations as part of FsLab
+authors
+    Dennis Grimminck, ...
